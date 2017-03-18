@@ -1,8 +1,9 @@
+'use strict';
 var express    = require('express');
 var app        = express();
 var bodyParser = require('body-parser');
-var routes = require('~/workspace/timestamp/index.js');
-var api = require('~/workspace/timestamp/timestamp.js');    
+var routes = require('./index.js');
+var api = require('./timestamp.js');    
 var port = process.env.PORT || 8080;
 
 // configure app to use bodyParser()
