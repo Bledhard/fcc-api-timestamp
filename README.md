@@ -6,8 +6,8 @@
 ## Example usage:
 
 ```url
-https://timestamp-ms.herokuapp.com/December%2015,%202015
-https://timestamp-ms.herokuapp.com/1450137600
+https://bledhard-fcc-timestamp.herokuapp.com/December%2015,%202015
+https://bledhard-fcc-timestamp.herokuapp.com/1450137600
 ```
 
 ## Example output:
