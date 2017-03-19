@@ -4,7 +4,7 @@ var app        = express();
 var bodyParser = require('body-parser');
 var routes = require('./index.js');
 var api = require('./timestamp.js');    
-var port = process.env.PORT || 8080;
+var port = process.env.PORT;
 
 app.use(function(req, res, next) {
     res.header("Access-Control-Allow-Origin", "*");
